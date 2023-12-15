@@ -34,7 +34,25 @@ img{
     width: 100%;
 }
 
+.text-brand{
+    color:var(--color-body);
+}
+
+
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
 /*Navbar*/
+.navbar{
+    background-color: var(--color-base);
+}
 .navbar .nav-link{
     font-weight: 700;
     text-transform: uppercase;
@@ -54,4 +72,11 @@ img{
         background-position: center;
     }
     
+    .navbar-brand img{
+        border: 7px solid var(--color-body);
+    }
+    /*Content*/
+    #content-wrapper{
+        padding-left: var(--sidbar-width);
+    }
 }
