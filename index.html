@@ -16,15 +16,15 @@
   <script src="./assets/js/main.js"></script>
   <!--Navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <div class="container flex-lg-column">
+    <div class="container flex-lg-column" data-aos="fade-up" data-aos-delay="300">
         <a class="navbar-brand mb-lg-4" href="#">
             <span class="h3 fw-bolder d-block d-lg-none"> Paskal </span>
-            <img src="./assets/images/Test2.jpg" class="d-none d-lg-block" alt="">
+            <img class="rounded-4" src="./assets/images/Test2.jpg" class="d-none d-lg-block" alt="">
         </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbarNav" data-aos="fade-up" data-aos-delay="600">
         <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
           <li class="nav-item">
             <a class="nav-link" href="#home">Home</span></a>
@@ -36,7 +36,7 @@
             <a class="nav-link" href="#work">Projekte</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#Contact">Kontakt</span></a>
+            <a class="nav-link" href="#contact">Kontakt</span></a>
           </li>
         </ul>
       </div>
@@ -72,11 +72,11 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row gy-4">
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
             <div class="service p-4 bg-base rounded-4 shadow-effect">
               <div class= "iconbox rounded-4">
-                <i class="las la-dragon"></i>
+                <i class="las la-file-powerpoint"></i>
               </div>
               <h4 class="mt-4 mb-2">Präsentationen</h4>
               <p>Erstellung von Präsentationen für ihre Projekte.</p>
@@ -100,7 +100,7 @@
       </div>
     </section>
 
-    <!--Work-->
+    <!--Projekte-->
     <section id="work" class="full-height"mpx-lg-5>
       <div class="container">
 
@@ -111,8 +111,8 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6">
+        <div class="row gy-4">
+          <div class="col-md-6">
             <div class="card-custom rounded-4 bg-base shadow-effect" data-aos="fade-up" data-aos-delay="300">
               <div class="card-custom-image rounded-4">
                 <img class="rounded-4" src="./assets/images/Test2.jpg" alt="">
@@ -124,6 +124,59 @@
               </div>
             </div>
           </div>
+
+          <div class="col-md-6">
+            <div class="card-custom rounded-4 bg-base shadow-effect" data-aos="fade-up" data-aos-delay="700">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./assets/images/Test2.jpg" alt="">
+              </div>
+              <div class="card-custom-content p-4">
+                <h4> Projekt</h4>
+                <p>Test Text für das Projekt</p>
+                <a href="#" class="link-custom">Mehr</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--Kontakte-->
+    <section id="contact" class="full-height px-lg-5">
+      <div class="container">
+
+        <div class="row pb-4" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h4 class="text-brand">Kontak</h4>
+            <h1>Service den man anbietet.txt</h1>
+          </div>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="service p-4 bg-base rounded-4 shadow-effect">
+              <div class= "iconbox rounded-4">
+                <i class="las la-envelope-open"></i>
+              </div>
+              <h4 class="mt-4 mb-2">E-Mail</h4>
+              <p>Erstellung von Präsentationen für ihre Projekte.</p>
+              <a href="#" class="link-custom">Email Einfügen</a>
+            </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="700">
+            <div class="service p-4 bg-base rounded-4 shadow-effect">
+              <div class= "iconbox rounded-4">
+                <i class="lab la-twitter"></i>
+              </div>
+              <h4 class="mt-4 mb-2">Social Media</h4>
+              <p>Erstellung von Präsentationen für ihre Projekte.</p>
+              <a href="#" class="link-custom">Twitter</a>
+            </div>
+          </div>
+
         </div>
 
       </div>
