@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body> // eingetragen
+<body data-bs-spy="scroll" data-bs-target=".navbar"> // eingetragen
   <script src="./assets/js/bootstrap.bundle.min.js"></script>
   <script src="./assets/js/aos.js"></script>
   <script src="./assets/js/main.js"></script>
@@ -33,10 +33,10 @@
             <a class="nav-link" href="#service">Service</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#work">Work</span></a>
+            <a class="nav-link" href="#work">Projekte</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#Contact">Contact</span></a>
+            <a class="nav-link" href="#Contact">Kontakt</span></a>
           </li>
         </ul>
       </div>
@@ -47,14 +47,16 @@
   <!--Content-->
   <div id="content-wrapper">
     <!--Home-->
-    <section id="Home" class="full-height px-lg-5">
+    <section id="home" class="full-height px-lg-5">
       <div class="container">
         <div class="row">
-          <div class="col-log-8">
-            <h1 class="display-4 fw-bold">Test Text <span class="text-brand"> 12345</span></h1>
-            <p class="lead mt-2 mb-4">Test Text 2 Test Test</p>
-            <a href="#work" class="btn btn-brand me-4"> Explore meinen Test </a>
-            <a href="https://github.com/ZeroStratege" class="lead link-custom">github</a>
+          <div class="col-log-10">
+            <h1 class="display-4 fw-bold" data-aos="fade-up">Test Text Text Text <span class="text-brand"> Test Text 12345</span></h1>
+            <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">Test Text 2 Test Test</p>
+            <div data-aos="fade-up" data-aos-delay="700">
+              <a href="#work" class="btn btn-brand me-4"> Explore meinen Test </a>
+              <a href="https://github.com/ZeroStratege" class="lead link-custom">github</a>
+            </div>
           </div>
         </div>
       </div>
@@ -62,15 +64,70 @@
     <!--service-->
     <section id="service" class="full-height px-lg-5">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-8">
-            <h6> class="text-brand" Service</h6>
 
+        <div class="row pb-4" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h4 class="text-brand">Service</h4>
+            <h1>Service den man anbietet.txt</h1>
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="service p-4 bg-base rounded-4 shadow-effect">
+              <div class= "iconbox rounded-4">
+                <i class="las la-dragon"></i>
+              </div>
+              <h4 class="mt-4 mb-2">Präsentationen</h4>
+              <p>Erstellung von Präsentationen für ihre Projekte.</p>
+              <a href="#" class="link-custom">Mehr</a>
+            </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="700">
+            <div class="service p-4 bg-base rounded-4 shadow-effect">
+              <div class= "iconbox rounded-4">
+                <i class="las la-dragon"></i>
+              </div>
+              <h4 class="mt-4 mb-2">Präsentationen</h4>
+              <p>Erstellung von Präsentationen für ihre Projekte.</p>
+              <a href="#" class="link-custom">Mehr</a>
+            </div>
+          </div>
+
+        </div>
+
       </div>
     </section>
 
+    <!--Work-->
+    <section id="work" class="full-height"mpx-lg-5>
+      <div class="container">
+
+        <div class="row pb-4" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h4 class="text-brand">Projekte</h4>
+            <h1>Meine Projekte</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card-custom rounded-4 bg-base shadow-effect" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./assets/images/Test2.jpg" alt="">
+              </div>
+              <div class="card-custom-content p-4">
+                <h4> Projekt</h4>
+                <p>Test Text für das Projekt</p>
+                <a href="#" class="link-custom">Mehr</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
   </div>
 </body>
 </html>
