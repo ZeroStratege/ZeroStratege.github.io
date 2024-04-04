@@ -99,7 +99,7 @@ img{
     .navbar{
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(34, 33, 34, 0.9),rgba(34, 33, 34, 0.9)), url(../images/Test2.jpg);
+        background: linear-gradient(rgba(34, 33, 34, 0.9),rgba(34, 33, 34, 0.9)), url(../images/Test1.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -151,6 +151,11 @@ color: var(--color-base);
 
 .link-custom:hover::after{
     width: 110%;
+}
+
+.img-fluid{
+    max-width: 80%;
+    height: auto;
 }
 
 .card-custom .card-custom-image{
