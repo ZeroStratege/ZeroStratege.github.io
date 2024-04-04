@@ -164,6 +164,7 @@ overflow: hidden;
 .card-custom .card-custom-image img{
     transition: all 0.5s ease;
 }
-.card-custom:hover .card-custom-image img {
+.card-custom:hover .card-custom-image img{
+    background-image: url(../images/Test1.jpg);
     transform: scale(1.2);
 }

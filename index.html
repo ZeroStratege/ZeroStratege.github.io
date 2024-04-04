@@ -111,7 +111,7 @@
 
         <div class="row gy-4 img-fluid">
           <div class="col-md-6">
-            <div class="card-custom rounded-4 bg-base shadow-effect" data-aos="fade-right" data-aos-delay="300">
+            <div class="card-custom rounded-4 bg-base shadow-effect" data-aos="fade-right" data-aos-delay="300" onmouseover="changeImage(this, './assets/Projekt 1/Projekt 1 - Bild 2.png')" onmouseout="restoreImage(this, './assets/Projekt 1/Projekt 1 - Bild 1.png')">
               <div class="card-custom-image rounded-4">
                 <img class="rounded-4" src="./assets/Projekt 1/Projekt 1 - Bild 1.png"  alt="">
               </div>
@@ -124,7 +124,7 @@
           </div>
 
           <div class="col-md-6">
-            <div class="card-custom rounded-4 bg-base shadow-effect" data-aos="fade-left" data-aos-delay="700">
+            <div class="card-custom rounded-4 bg-base shadow-effect" data-aos="fade-left" data-aos-delay="700" onmouseover="changeImage(this, './assets/Projekt 2/Projekt 2 - Bild 1.jpg')" onmouseout="restoreImage(this, './assets/Projekt 2/Projekt 2 - Bild 2.jpg')">
               <div class="card-custom-image rounded-4">
                 <img class="rounded-4" src="./assets/Projekt 2/Projekt 2 - Bild 2.jpg" alt="">
               </div>
@@ -135,7 +135,6 @@
               </div>
             </div>
           </div>
-
         </div>
 
       </div>
@@ -180,5 +179,19 @@
       </div>
     </section>
   </div>
+
+  <script>
+    function changeImage(element, newSrc) {
+      var img = element.querySelector(".card-custom-image img");
+      img.src = newSrc;
+    }
+  
+    function restoreImage(element, originalSrc) {
+      var img = element.querySelector(".card-custom-image img");
+      img.src = originalSrc;
+    }
+  </script>
+
+
 </body>
 </html>
