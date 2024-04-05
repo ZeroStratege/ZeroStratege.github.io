@@ -54,7 +54,8 @@
             <h1 class="display-4 fw-bold" data-aos="fade-up">Portfolio <span class="text-brand"> übung</span></h1>
             <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">Paskal C&R Website Portfolio</p>
             <div data-aos="fade-up" data-aos-delay="700">
-              <a href="#work" class="btn btn-brand me-4"> Meine Projekte </a>
+              <audio id="audioPlayer" src="./assets/audio/Test_audio.mp3"></audio>
+              <a href="#work" class="btn btn-brand me-4" onclick="toggleAudio()"> Meine Projekte </a>
               <a href="https://github.com/ZeroStratege" class="lead link-custom">GitHub</a>
             </div>
           </div>
@@ -192,6 +193,16 @@
     }
   </script>
 
+<script>
+  var audio = document.getElementById("audioPlayer");
+  function toggleAudio() {
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  }
+</script>
 
 </body>
 </html>
