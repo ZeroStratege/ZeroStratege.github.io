@@ -2,21 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root{
- /*   --color-body: #79540a;
-    --color-heading: #eef3db;
-    --color-base: #033f47;
-    --color-base2: #022a30;
-    --color-brand: #e0f780;
-    --color-brand2: #deff58; */
-    --color-body: #d1cebb;
-    --color-heading: #f9f17e;
+ 
+    --color-body: #1b1b1b;
+    --color-heading: #141414;
     --color-base: #222122;
-    --color-base2: #151315;
+    --color-base2: #000000;
     --color-brand: #69a090;
     --color-brand2: #bb3f40;
 
     --sidbar-width: 240px;
     --font-base: "Rubik";
+
+}
+
+.item { display: none; }
+.item.show { display: block; }
+.video-thumbnail {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem;
 }
 
 body{
@@ -77,6 +82,7 @@ img{
     font-size: 32px;
     background-color: var(--color-brand);
 }
+
 /*Navbar*/
 .navbar{
     background-color: var(--color-base2);

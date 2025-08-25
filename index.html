@@ -1,208 +1,1784 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/aos.css">
-    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body data-bs-spy="scroll" data-bs-target=".navbar"> // eingetragen
-  <script src="./assets/js/bootstrap.bundle.min.js"></script>
-  <script src="./assets/js/aos.js"></script>
-  <script src="./assets/js/main.js"></script>
-  <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <div class="container flex-lg-column" data-aos="fade-up" data-aos-delay="300">
-        <a class="navbar-brand mb-lg-4" href="#">
-            <span class="h3 fw-bolder d-block d-lg-none"> Paskal </span>
-            <img src="./assets/images/Profil.png" class="d-none d-lg-block rounded-4" alt="">
-        </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
-          <li class="nav-item">
-            <a data-aos="fade-up" data-aos-delay="600" class="nav-link" href="#home">Home</span></a>
-          </li>
-          <li class="nav-item">
-            <a data-aos="fade-up" data-aos-delay="650" class="nav-link" href="#service">Service</span></a>
-          </li>
-          <li class="nav-item">
-            <a data-aos="fade-up" data-aos-delay="700" class="nav-link" href="#work">Projekte</span></a>
-          </li>
-          <li class="nav-item active">
-            <a data-aos="fade-up" data-aos-delay="750" class="nav-link" href="#contact">Kontakt</span></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--Navbar-->
-  
-  <!--Content-->
-  <div id="content-wrapper">
-    <!--Home-->
-    <section id="home" class="full-height px-lg-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-log-10">
-            <h1 class="display-4 fw-bold" data-aos="fade-up">Portfolio <span class="text-brand"> übung</span></h1>
-            <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">Paskal C&R Website Portfolio</p>
-            <div data-aos="fade-up" data-aos-delay="700">
-              <audio id="audioPlayer" src="./assets/audio/Test_audio.mp3"></audio>
-              <a href="#work" class="btn btn-brand me-4" onclick="toggleAudio()"> Meine Projekte </a>
-              <a href="https://github.com/ZeroStratege" class="lead link-custom">GitHub</a>
+<html lang="de>
+    <head>
+        <meta charset "UTF-8">
+        <meta name="viewport" content="width=device-width, initia-scale-1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Gefilterte Beiträge mit videos</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Test -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/aos.css">
+        <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- Test -->
+
+        <style>
+    /* Bild im Modal fast bildschirmfüllend anzeigen */
+
+  </style>
+    </head>
+
+    <body class="bg-light p-4">
+
+        <!-- Test -->
+        <script src="./assets/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/js/aos.js"></script>
+        <script src="./assets/js/main.js"></script>
+        <!-- Test -->
+
+        <!--Einführung der Webseite-->
+        <div class="container text-center mb-6">
+            <h1 class="mb-3">Visual Delegate Kompendium</h1>
+            <p class="lead">Visual Delegate Framework</p>
+            <p class="ln-base"> 
+                <span class="fw-bold">Visual Delegates</span> 
+                bezeichnen visuelle Effekte, die Informationen visuell an den Spieler weitergeben. Bsp.: Lebensbalken, die dem Spieler visuell vermitteln, wie viele Lebenspunkte dieser noch hat.
+            </p>
+            <p class="lh-base">
+                <span class="fw-bold">Visual Delegate Generalisation Framework</span>
+                ermöglicht es Visual Delegates in ihrer visuellen Charakteristik zu beschreiben. 
+                Hierbei wird ein Visual Delegate anhand der drei Kategorien Tiefe, Abstraktion und Kontrolle beschrieben. 
+                Die Beschreibung erfolgt durch die Betrachtung des Visual Delegates und die zielgerichtete Zuordnung passender Eigenschaften aus jeder der drei Kategorien. 
+                So müsste nach einer Beschreibung einem Visual Delegate in den meisten Fällen mindestens eine Eigenschaft aus jeder der drei Kategorien zugeordnet werden.
+                Vereinigt stellen die Eigenschaftskürzel eine standardisierte und kompakte Möglichkeit dar, Visual Delegates in ihren visuellen Eigenschaften zu beschreiben. 
+            </p>
+            
+                            <div style="transform: scale(1);"> <!--VD Frame einordnung-->
+                                <div class="container ">
+                                    <div class="row justify-content-center">
+                                        <div class="col-10 fw-bold bg-secondary text-white" style="border: 1px solid #000;">
+                                            VD-Frame
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row justify-content-center">
+                                        <div class="col-2  fw-bold bg-light" style="border: 1px solid #000;">
+                                            VD-Kategorie
+                                        </div>
+                                        <div class="col-8  fw-bold bg-light"style="border: 1px solid #000;">
+                                            VD-Eigenschaft
+                                        </div>
+                                    </div>
+
+                                    <div class="row tiefe-VD justify-content-center"> <!--Tiefe Ebene-->
+                                        <div class="col-2 fw-bold bg-light text-danger" style="border: 1px solid #000; padding: 10px;">
+                                            Tiefe
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            MENU
+                                        </div>
+                                            <div class="col-4 fw-bold">
+                                                <div class="row">
+                                                    <div class="col fw-bold" style="border: 1px solid #000; ">
+                                                        FIL
+                                                    </div>
+                                                    <div class="col fw-bold" style="border: 1px solid #000;">
+                                                        CHAR
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col fw-bold" style="border: 1px solid #000;">
+                                                        REF
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2  fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                ENV
+                                            </div>
+                                    </div>
+                                        <div class="row abstraktion-VD justify-content-center"> <!--Abstraktion Ebene-->
+                                            <div class="col-2  fw-bold text-primary bg-light" style="border: 1px solid #000; padding: 10px;">
+                                                Abstarktion
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                DESC 
+                                            </div>
+                                            <div class="col-4 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                SYM 
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                NAT 
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="row kontrolle-VD justify-content-center"> <!--Kontrolle Ebene-->
+                                            <div class="col-2  fw-bold text-success bg-light" style="border: 1px solid #000; padding: 10px;">
+                                                Kontrolle
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                NOCO 
+                                            </div>
+                                            <div class="col-4 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                ACT 
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                MOD 
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <p>
+                                    
+                                </p>
+                            </div>
+
+
+
+            
+            <div id="collapseText" class="collapse">
+                
+                <div class="container"> <!--Beschreibung der Kategorien-->
+                    <div class="row">
+                        <div class=" col-md-4 border border-danger rounded p-2">
+                            <h5 class="text-high bg-danger rounded">Tiefe</h6>
+                            <div class="">
+                                <p> 
+                                    Beschreibt, auf welcher Ebene sowie mit welcher Referenz das jeweilige Visual Delegate dargestellt wird.
+                                </p>
+                                <p> 
+                                    <span class="fw-bold"> In-game menu (MENU)</span> 
+                                    Permanente Visual Delegates gehören zum in-Game menu sie beinhalten interaktive Nutzeroberflächen, 
+                                    die nur für den Spieler sichtbar sind. Beispielsweise Lebensanzeige oder Inventar.
+                                </p> 
+                                <p> 
+                                    <span class="fw-bold"> Virtual environment (ENV)</span> 
+                                    Beinhaltet alle Elemente innerhalb der virtuellen 
+                                    Umgebung die für den spielbaren Charakter sichtbar und physisch erscheinen.
+                                </p> 
+                                <p> 
+                                    <span class="fw-bold"> Referenced (REF)</span> 
+                                    Stellt eine Verbindung zwischen MENU und ENV, indem es ein Element 
+                                    auf der Nutzeroberflächenebene gerendert wird und eine Referenz zu einem 
+                                    physisches Objekt in der Spielwelt bildet. Sie können aber auch innerhalb der Spielwelt 
+                                    als sichtbare, nicht greifbare Elemente geladen werden, um auf Physische Objekte in der Spielwelt zu referenzieren.
+                                    Ein prominentes Beispiel wären Questmarker, die einem den Weg in der Spielwelt zeigen.
+                                </p> 
+                                <p> 
+                                    <span class="fw-bold"> Character (CHAR)</span> 
+                                    Beinhaltet alle physischen Elemente, die in Verbindung mit dem Körper eines virtuellen Charakters stehen. 
+                                    Dies beinhaltet den Körper selbst, Kleidung, Ausrüstung und die Gegenstände, die ein Charakter gerade in der Hand hält.
+                                </p> 
+                                <p> 
+                                    <span class="fw-bold"> Filter (FIL)</span> 
+                                    Visual Delegates, die für eine eingeschränkte Zeit, 
+                                    das Sichtfeld auf die virtuelle Spielwelt verdecken oder abändern. 
+                                    Beispiele hierfür wären Bluttropfen auf der Spieloberfläche bei 
+                                    Verletzung oder ein pulsierender Rand in Stresssituationen.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 border border-info rounded p-2">
+                            <h5 class="text-high bg-info rounded">Abstraktion</h6>
+                            <div class="">
+                                <p> 
+                                    Beschreibt die Höhe der Abstraktionsebene, in der sich die visual delegates in ihrer Visualisierung befinden.
+                                </p>
+                                <p> 
+                                    <span class="fw-bold"> Descriptive (DESC)</span> 
+                                    Visual Delegates welche in einer abstrakten deskriptiven Form dargestellt werden. 
+                                    Hierzu gehören Texte, Zahlen oder Informationen, dessen Bedeutung von Sub Informationen abhängen.
+                                </p> 
+                                <p> 
+                                    <span class="fw-bold"> Symbolic (SYM)</span> 
+                                    Symbolische Darstellungen sind Abstraktionen von Elementen, Ereignissen und Effekten aus der Realität. 
+                                    Ein Beispiel für ein symbolisches Visual Delegate wäre ein rotes Herz, das Lebenspunkte darstellt. 
+                                    Ein weiteres Beispiel wäre ein in der Spielwelt befindliches grünes Kreuz, welches Heilung symbolisiert.
+                                </p> 
+                                <p> 
+                                    <span class="fw-bold"> Naturalistic (NAT)</span>
+                                    Naturalistischer Darstellungen bilden Äquivalente in ihrer Form, Proportionen und Verhalten zu jenen Elementen der 
+                                    physischen Welt oder anderen Elementen in der virtuellen Welt. Es ist abhängig von der Beobachtungsperspektive, 
+                                    ob ein Visual Delegate eine naturalistische Darstellung ist. Elemente, die in ihrer Form, Proportionen oder ihrem Verhalten 
+                                    in ihrem Natürlichkeitsgrad der inneren Natürlichkeit der Spielwelt (virtuelle Welt) entsprechen, können als naturalistisch bezeichnet werden. 
+                                    Beispiele hierfür wären verändernde Schatten von Charakteren unter verschiedenen Lichtquellen. Blutflecken, wenn der Spieler Schaden erleidet.
+                                </p> 
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 border border-success rounded p-2">
+                            <h5 class="text-high bg-success rounded">Kontrolle</h6>
+                            <div class="">
+                                <p> 
+                                    Diese Kategorie beschreibt, in welcher Form Visual delegates in ihrer optischen Darstellung kontrolliert werden können.
+                                </p>
+                                <p> 
+                                    <span class="fw-bold"> No control (NOCO)</span> 
+                                    Hierbei entscheidet, die spiel Logik über die Modifizierbarkeit und 
+                                    Erscheinung der Visual delegates. Dies geschieht ohne eine direkte 
+                                    Interaktion mit dem Spieler. Schatten und Lichteffekte gehören oftmals zu dieser Kategorie.
+                                </p> 
+                                <p> 
+                                    <span class="fw-bold"> Active (ACT)</span> 
+                                    Das Erscheinungsbild und die Veränderbarkeit des Visual Delegates hängt von den Aktionen 
+                                    des Spielers ab.  Das Tachometer in einem Rennspiel, das die Geschwindigkeit des Fahrzeuges anzeigt. 
+                                    Hängt davon ab, wie der Spieler fährt. Bremst dieser sinkt das Tachometer, beschleunigt er steigt das Tachometer.
+                                </p> 
+                                <p> 
+                                    <span class="fw-bold"> Modifiable (MOD)</span> 
+                                    Die Erscheinung des Visual delegates kann durch das Handeln des Spielers permanent angepasst werden. 
+                                    Beispielsweise die Lebensanzeige in RPGs die durch das Ausrüsten von Gegänstenden steigt.
+                                </p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--service-->
-    <section id="service" class="full-height px-lg-5">
-      <div class="container">
 
-        <div class="row pb-4" data-aos="fade-up">
-          <div class="col-lg-8">
-            <h4 class="text-brand">Service</h4>
-            <h1>Folgende Unterstützung biete ich an.</h1>
-          </div>
+            <!--Sichtbarer Teil selbst beim anklicken-->
+            <!--Knopf zum einfahren-->
+            <button class="btn btn-link p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseText" aria-expanded="false" aria-controls="collapseText" onclick="toggleTextLabel(this)">
+                Mehr Anzeigen
+            </button>
         </div>
 
-        <div class="row gy-4">
-          <div class="col-md-4" data-aos="fade-right" data-aos-delay="300">
-            <div class="service p-4 bg-base rounded-4 shadow-effect">
-              <div class= "iconbox rounded-4">
-                <i class="las la-brain"></i>
-              </div>
-              <h4 class="mt-4 mb-2">User-Experience-Unterstützung</h4>
-              <p>Unterstützung in der Gestaltung der Nutzererfahrung Ihres Produktes.</p>
+        <div class="container text-center mb-4">
+            <div class="btn-gruppe btn-outline-dark" role="gruppe">
+                <button type="button" class="btn btn-dark filter-btn" daten-filter="all">Alle</button>
+                <button type="button" class="btn  filter-btn" daten-filter="freude">Freude</button>
+                <button type="button" class="btn  filter-btn" daten-filter="vertrauen">Vertrauen</button>
+                <button type="button" class="btn  filter-btn" daten-filter="furcht">Furcht</button>
+                <button type="button" class="btn  filter-btn" daten-filter="überraschung">Überraschung</button>
+                <button type="button" class="btn  filter-btn" daten-filter="traurigkeit">Traurigkeit</button>
+                <button type="button" class="btn  filter-btn" daten-filter="ekel">Ekel</button>
+                <button type="button" class="btn  filter-btn" daten-filter="wut">Wut</button>
+                <button type="button" class="btn  filter-btn" daten-filter="erwartung">Erwartung</button>
+
             </div>
-          </div>
-
-          <div class="col-md-4" data-aos="fade-left" data-aos-delay="700">
-            <div class="service p-4 bg-base rounded-4 shadow-effect">
-              <div class= "iconbox rounded-4">
-                <i class="las la-file-powerpoint"></i>
-              </div>
-              <h4 class="mt-4 mb-2">Präsentationen</h4>
-              <p>Erstellung von Präsentationen für ihre Projekte.</p>
-            </div>
-          </div>
-
         </div>
 
-      </div>
-    </section>
+        <!--Beitrag Arknights Furcht-->
+        <div class="container">
+            <div class="item card mb-4 p-3 card-horizontal shadow-sm" daten-kategorie="furcht" daten-kategorie="filter">
+                <div class="row g-3">
+                    <!--Bild-->
+                    <div class="col-md-4">  <!-- alt="Bild" Bessere Namensgebung für alles bitte-->
+                        <img src="./assets/Bilder/Bild-Arknights.PNG" class="img-thumbnail VergrößerbaresBild" alt="Bild" style="cursor: zoom-in;">
+                        <p></p>
+                        <button type="button" class="btn btn-outline-primary p-2 videoEinbettung" data-bs-toggle="modal" data-bs-target=".videoModal" srcVideo="https://www.youtube.com/embed/Y4-C2lqZM-g"> Modal Video</button>
+                    </div>
 
-    <!--Projekte-->
-    <section id="work" class="full-height"mpx-lg-5>
-      <div class="container">
+                    <!--Text auf der Rechten seite-->
+                    <div class="col-md-8 d-flex flex-column">
+                        <h5>Arknights</h5>
 
-        <div class="row pb-4" data-aos="fade-up">
-          <div class="col-lg-8">
-            <h4 class="text-brand">Projekte</h4>
-            <h1>Meine Projekte</h1>
-          </div>
+                        <h6 class="text-muted">STUDIO MONTAGNE HYPERGRYPH: 2019</h6>
+                        <h6>Emotion: Furcht</h6>
+
+                        <div>
+                            <p class="fst-italic"> 
+                                Zum Zeitpunkt des Visual Delegates befindet sich der Spieler in einer hochemotionalen Situation. 
+                                In dieser steht der Spielercharakter vor der Entscheidung, seinen Verrat zu vollenden, 
+                                welcher vielen Personen schaden wird. Kurz bevor er die Verteidigungssysteme herunterfährt, 
+                                bekommt er letzte Zweifel und zögert.
+                            </p>
+                        </div>
+
+                        <div id="collapseTextAngst" class="collapse"> <!-- ID Muss für Jeden Eintrag Gändert werden-->
+                            
+                            <h6 class="text-muted">Emotionale Einordnung</h6>
+                            <p>
+                                In dieser Situation zögert der Spielercharakter, seine endgültige Entscheidung zu fällen.
+                                Das Zögern das durch die vielen Punkte symbolisiert wird. Stamm von der Verbindung zwischen dem Spielcharakter zum potenziellen Opfer des Verrats.
+                                Der Spielcharakter steht in einem tiefen Vertrauensverhältnis zum Opfer. Des Weiteren ist der Spieler sich der Konsequenzen bewusst, 
+                                die seine Taten haben werden. Beide Möglichkeiten den Verrat zu begehen oder diesen nicht zu begehen haben gewaltige Konsequenzen.
+                                Diesen ist der Charakter sich bewusst.
+                                Weswegen sich diese Situation als Furcht interpretieren lässt. Der Charakter fürchtet sich vor den Konsequenzen, 
+                                die seinem Handeln folgen werden und fällt in einen inneren Kampf, welche Entscheidung er fällen soll.
+                            </p>
+                            
+                            <h6 class="text-muted">Einordnung im Framework</h6>
+                            <p>
+                                Die vielen Punkte, die über den Bildschirm verteilt sind, bilden eine Referenz (REF) auf der tiefen Ebene des Spiels an die Gedanken des Spielercharakters. 
+                                Sie referenzieren seine Gedanken im Moment seines Zögerns. In ihrer Abstraktion sind sie symbolisch (SYM). Sie stehen repräsentativ für 
+                                die Gedanken, dass der Spieler erahnen kann, welche Gedanken der Charakter gerade durchlebt. Sie entlarven jedoch die genauen Gedanken nicht. 
+                                Diese Rolle der Interpretation, welche genauen Gedanken der Charakter durchläuft, wird dem Spieler überlassen. 
+                                Während der Spielszene hat der Spieler keine Kontrolle (NOCO) über das Visual Delegate, 
+                                die Punkte erscheinen in einer festgelegten Reihenfolge und Positionen auf dem Bildschirm. 
+                                Darüber hinaus hat der Spieler keine Möglichkeit, dieses Visual Delegate mit seinen Aktionen zu verhindern.
+                            </p>
+                        </div>
+                            
+                            <div> <!--VD Frame einordnung-->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-10 fw-bold bg-secondary text-white" style="border: 1px solid #000;">
+                                            VD-Frame
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-2  fw-bold bg-light" style="border: 1px solid #000;">
+                                            VD-Kategorie
+                                        </div>
+                                        <div class="col-8  fw-bold bg-light"style="border: 1px solid #000;">
+                                            VD-Eigenschaft
+                                        </div>
+                                    </div>
+
+                                    <div class="row tiefe-VD"> <!--Tiefe Ebene-->
+                                        <div class="col-2 fw-bold text-danger bg-light" style="border: 1px solid #000; padding: 10px;">
+                                            Tiefe
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            MENU
+                                        </div>
+                                            <div class="col-4 fw-bold">
+                                                <div class="row">
+                                                    <div class="col fw-bold" style="border: 1px solid #000; ">
+                                                        FIL
+                                                    </div>
+                                                    <div class="col fw-bold" style="border: 1px solid #000;">
+                                                        CHAR
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col fw-bold text-danger" style="border: 1px solid #000;">
+                                                        REF
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2  fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                ENV
+                                            </div>
+                                    </div>
+                                        <div class="row abstraktion-VD"> <!--Abstraktion Ebene-->
+                                            <div class="col-2  fw-bold text-primary bg-light" style="border: 1px solid #000; padding: 10px;">
+                                                Abstarktion
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                DESC 
+                                            </div>
+                                            <div class="col-4 fw-bold text-primary" style="border: 1px solid #000; padding: 10px;">
+                                                SYM 
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                NAT 
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="row kontrolle-VD"> <!--Kontrolle Ebene-->
+                                            <div class="col-2  fw-bold text-success bg-light" style="border: 1px solid #000; padding: 10px;">
+                                                Kontrolle
+                                            </div>
+                                            <div class="col-2 fw-bold text-success" style="border: 1px solid #000; padding: 10px;">
+                                                NOCO 
+                                            </div>
+                                            <div class="col-4 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                ACT 
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                MOD 
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+
+                        
+                        <button class="btn btn-link p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTextAngst" aria-expanded="false" aria-controls="collapseTextAngst" onclick="toggleTextLabel(this)">
+                            Mehr Anzeigen   <!-- data-bs-target muss auf die ID angepasst werden-->
+                        </button>
+                        
+                        <div class="mt-auto">
+                            <span class="badge bg-dark text-light border">Furcht</span>
+                            <span class="badge bg-secondary">REF/SYM/NOCO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Beitrag ende-->
+
+        <!--Beitrag Ekel Warhammer -->
+        <div class="container">
+            <div class="item card mb-4 p-3 card-horizontal shadow-sm" daten-kategorie="ekel" daten-kategorie="filter">
+                <div class="row g-3">
+                    <!--Bild-->
+                    <div class="col-md-4">  <!-- alt="Bild" Bessere Namensgebung für alles bitte-->
+                        <img src="./assets/Bilder/Bild-Warhammer-Abscheu.PNG" class="img-thumbnail VergrößerbaresBild" alt="Bild Bild-Warhammer-Abscheu" style="cursor: zoom-in;">
+                        <p></p>
+                        
+                        <button type="button" class="btn btn-outline-primary p-2 videoEinbettung" data-bs-toggle="modal" data-bs-target=".videoModal" srcVideo="https://www.youtube.com/embed/vAyDQlm3Fkc"> Modal Video</button>
+
+                    </div>
+
+                    <!--Text auf der Rechten seite-->
+                    <div class="col-md-8 d-flex flex-column">
+                        <h5>Warhammer 40,000 Rogue Trader</h5>
+                        <h6 class="text-muted">OWLCAT GAMES: 2023</h6>
+                        <h6>Emotion: Ekel</h6>
+                        <div>
+                            <p class="fst-italic"> 
+                                In der folgenden Szene spricht der Spielercharakter mit einem Psyker, 
+                                der unter seiner Befehlsgewalt steht. Es ist wichtig zu wissen, dass sogenannte Psyker im Warhammer-Universum gehasst werden, 
+                                weil sie ihre Macht aus dem Warp ziehen. Bei dem Warp handelt es sich um eine Dimension, in der Dämonen leben. 
+                                Die Macht, die durch den Warp gewonnen werden kann, ist gewaltig. Jedoch ist der Warp instabil, 
+                                sodass jeder Psyker ein potenzielles Tor für eine Dämoneninvasion sein kann. Folglich fürchten sich Menschen vor Psykern, 
+                                weswegen die meisten ermordet werden und nur kontrollierte Psyker in der Armee verwendet werden. 
+                                Diese werden aber weiterhin von vielen mit Misstrauen und Hass behandelt.
+                            </p>
+                        </div>
+
+                        <div id="collapseTextEkel" class="collapse"> <!-- ID Muss für Jeden Eintrag Gändert werden-->
+                            
+                            <h6 class="text-muted">Emotionale Einordnung</h6>
+                            <p>
+                                Der Spieler hat die Möglichkeit, die Pykerin zu fragen, 
+                                wie es sich anfühlt, eine Psykerin zu sein. Die Frage wird als Angriff von der Psykerin verstanden, 
+                                weswegen sie in diesem Moment für kurze Zeit Abscheu zum Spielercharakter verspürt. 
+                                Abscheu ist eine intensivere Stufe von Ekel anhand des Emotionsmodells nach Plutchik und somit lässt sich dieses Visual Delegate der Grundemotion Ekel zuordnen.
+                            </p>
+                            
+                            <h6 class="text-muted">Einordnung im Framework</h6>
+                            <p>
+                                Das Visual Delegate lässt sich im Framework mit den Kürzeln (MENU/DESC/ACT) beschreiben. Der emotionale Zustand des Charakters wird über das Textmenü vermittelt, 
+                                weswegen sich die Tiefe des Visuals Delegates der Eigenschaft MENU zuordnen lässt. In der Abstraktion wird für das Delegate ein stilistisch angepasster Text verwendet, 
+                                der für den Spieler hervorgehoben wirken soll. 
+                                Aufgrund der textlichen Umsetzung der Vermittlung des emotionalenZustandes würde dies der DESC-Eigenschaft der Abstraktion zugeordnet. 
+                                Während des Dialogs hat der Spieler keine Kontrolle über das Aussehen des Textes außer der Dialogwahl, die zu jenem Dialog führt.           
+                                Dementsprechend lässt sich dieses Delegate der Kontrolleigenschaft ACT zuordnen, weil dieses Delegate als Reaktion auf die Aktion des Spielers 
+                                in Form der Dialogwahl angezeigt wird.                           
+                            </p>
+                        </div>
+
+
+                        <div> <!--VD Frame einordnung-->
+                            <div class="container">
+                                    <div class="row">
+                                        <div class="col-10 fw-bold bg-secondary text-white" style="border: 1px solid #000;">
+                                            VD-Frame
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-2  fw-bold bg-light" style="border: 1px solid #000;">
+                                            VD-Kategorie
+                                        </div>
+                                        <div class="col-8  fw-bold bg-light"style="border: 1px solid #000;">
+                                            VD-Eigenschaft
+                                        </div>
+                                    </div>
+
+                                    <div class="row tiefe-VD"> <!--Tiefe Ebene-->
+                                        <div class="col-2 fw-bold text-danger bg-light" style="border: 1px solid #000; padding: 10px;">
+                                            Tiefe
+                                        </div>
+                                        <div class="col-2 fw-bold  text-danger" style="border: 1px solid #000; padding: 10px;">
+                                            MENU
+                                        </div>
+                                            <div class="col-4 fw-bold">
+                                                <div class="row">
+                                                    <div class="col fw-bold" style="border: 1px solid #000; ">
+                                                        FIL
+                                                    </div>
+                                                    <div class="col fw-bold" style="border: 1px solid #000;">
+                                                        CHAR
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col fw-bold" style="border: 1px solid #000;">
+                                                        REF
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2  fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                ENV
+                                            </div>
+                                    </div>
+                                        <div class="row abstraktion-VD"> <!--Abstraktion Ebene-->
+                                            <div class="col-2  fw-bold text-primary bg-light" style="border: 1px solid #000; padding: 10px;">
+                                                Abstarktion
+                                            </div>
+                                            <div class="col-2 fw-bold text-primary" style="border: 1px solid #000; padding: 10px;">
+                                                DESC 
+                                            </div>
+                                            <div class="col-4 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                SYM 
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                NAT 
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="row kontrolle-VD"> <!--Kontrolle Ebene-->
+                                            <div class="col-2  fw-bold text-success bg-light" style="border: 1px solid #000; padding: 10px;">
+                                                Kontrolle
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                NOCO 
+                                            </div>
+                                            <div class="col-4 fw-bold text-success" style="border: 1px solid #000; padding: 10px;">
+                                                ACT 
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                MOD 
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+
+                        
+                        <button class="btn btn-link p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTextEkel" aria-expanded="false" aria-controls="collapseTextEkel" onclick="toggleTextLabel(this)">
+                            Mehr Anzeigen   <!-- data-bs-target muss auf die ID angepasst werden-->
+                        </button>
+                        
+                        <div class="mt-auto">
+                            <span class="badge bg-dark text-light border">Ekel</span>
+                            <span class="badge bg-secondary">MENU/DESC/ACT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Beitrag ende-->
+
+        <!--Beitrag WUT Animal Crossing -->
+        <div class="container">
+            <div class="item card mb-4 p-3 card-horizontal shadow-sm" daten-kategorie="wut" daten-kategorie="filter">
+                <div class="row g-3">
+                    <!--Bild-->
+                    <div class="col-md-4">  <!-- alt="Bild" Bessere Namensgebung für alles bitte-->
+                        <img src="./assets/Bilder/Animal Crossing.PNG" class="img-thumbnail VergrößerbaresBild" alt="Bild Bild-AnimalCrossing-Wut" style="cursor: zoom-in;">
+                        <p></p>
+                        
+                        <button type="button" class="btn btn-outline-primary p-2 videoEinbettung" data-bs-toggle="modal" data-bs-target=".videoModal" srcVideo="https://www.youtube.com/embed/7Y7s7eK-_X0"> Modal Video</button>
+
+                    </div>
+
+                    <!--Text auf der Rechten seite-->
+                    <div class="col-md-8 d-flex flex-column">
+                        <h5>Animal Crossing: City Folk</h5>
+                        <h6 class="text-muted">NINTENDO EAD SOFTWARE DEVELOPMENT GROUP NO.2, 2008</h6>
+                        <h6>Emotion: Wut</h6>
+                        <div>
+                            <p class="fst-italic"> 
+                                In Animal Crossing baut der Spieler eine Siedlung, indem er Aufgaben erfüllt. 
+                                Mit wachsendem Spielfortschritt wächst die Gemeinschaft und die Umgebung verändert sich langsam. 
+                                Um seinen Spielfortschritt zu sichern, muss der Spieler das Spiel speichern. 
+                                Tut er dies nicht, erschein beim erneuten Spielen ein NPC namens Resetti der sich daraufhin beschwert, dass der Spieler nicht gespeichert hat. 
+                                Er warnt den Spieler davor, seinen Fortschritt zu verlieren, wenn er nicht speichert und verschwindet nach Aussprache der Warnung. 
+                                Vergisst der Spieler weiterhin, jenes Spiel vor dem Ausschalten zu speichern, verliert Resetti die Geduld und warnt den Spieler energisch.
+                            </p>
+                        </div>
+
+                        <div id="collapseTextWut" class="collapse"> <!-- ID Muss für Jeden Eintrag Gändert werden-->
+                            
+                            <h6 class="text-muted">Emotionale Einordnung</h6>
+                            <p>
+                                Der Text, wenn Resetti den Spieler für das mehrfache nicht speichern konfrontiert, ist im Vergleich zu vorherigen Texten deutlich unruhiger animiert. 
+                                Der Text wird in Kapital, Größe geschrieben, um eine stärkere Wirkung auf den Spieler zu zeigen. 
+                                Durch die Größe und unruhige Animation des Textes und des Kontextes lässt sich dieses Delegate für eine Darstellung von Wut interpretieren. 
+                                Wut ist eine explosive Emotion, die viel Energie in sich birgt. Diese Energie wird über den großgeschriebenen Text und die unruhige Animation dargestellt. 
+                                Beobachtet der Spieler zu dieser Zeit Resetti erkennt er, dass Resetti seine Augen weit geöffnet und sich hektisch bewegt. 
+                                Die weit geöffneten Augen in Kombination der angewinkelten Augenbrauen bilden einen wütenden Gesichtsausdruck, 
+                                während die hektische Bewegung einen Kontrollverlust symbolisiert, der für eine stark emotional geladene Situation spricht.
+                            </p>
+                            
+                            <h6 class="text-muted">Einordnung im Framework</h6>
+                            <p>
+                                Bei diesem Visual Delegate handelt es sich um eine Darstellung der Emotion Wut. 
+                                Die Emotion lässt sich über den Text erkennen, wo es sich um ein (MENU/DESC/NOCO) Delegate handelt. 
+                                Sie lässt sich aber auch anhand Resetti erkennen. Resetti selbst ist ein NPC, der seine Wut anhand seiner Mimik und Animation darstellt. 
+                                Somit lässt sich dieses Delegate in der Kategorie der Tiefe der Charakter (CHAR) Eigenschaft zuordnen. 
+                                In der Abstraktion scheint die Animation sowie sein Gesichtsausdruck für die Spielwelt natural (NAT). 
+                                Während des Dialoges hat der Spieler keine Kontrolle über die Erscheinung oder die Animation von Resetti. 
+                                Jedoch erscheint dieses Delegate aufgrund der Spieleraktion, indem er das Spiel nicht abspeichert. 
+                                Folglich lässt sich dieses Delegate der Kontrolleigenschaft Active (ACT) zuordnen.  
+                            </p>
+                        </div>
+
+
+                        <div> <!--VD Frame einordnung-->
+                            <div class="container">
+                                    <div class="row">
+                                        <div class="col-10 fw-bold bg-secondary text-white" style="border: 1px solid #000;">
+                                            VD-Frame
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-2  fw-bold bg-light" style="border: 1px solid #000;">
+                                            VD-Kategorie
+                                        </div>
+                                        <div class="col-8  fw-bold bg-light"style="border: 1px solid #000;">
+                                            VD-Eigenschaft
+                                        </div>
+                                    </div>
+
+                                    <div class="row tiefe-VD"> <!--Tiefe Ebene-->
+                                        <div class="col-2 fw-bold text-danger bg-light" style="border: 1px solid #000; padding: 10px;">
+                                            Tiefe
+                                        </div>
+                                        <div class="col-2 fw-bold text-danger" style="border: 1px solid #000; padding: 10px;">
+                                            MENU
+                                        </div>
+                                        <div class="col-4 fw-bold">
+                                            <div class="row">
+                                                <div class="col fw-bold" style="border: 1px solid #000; ">
+                                                    FIL
+                                                </div>
+                                                <div class="col fw-bold text-danger" style="border: 1px solid #000;">
+                                                    CHAR
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col fw-bold" style="border: 1px solid #000;">
+                                                    REF
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="col-2  fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                ENV
+                                            </div>
+                                    </div>
+                                        <div class="row abstraktion-VD"> <!--Abstraktion Ebene-->
+                                            <div class="col-2  fw-bold text-primary bg-light" style="border: 1px solid #000; padding: 10px;">
+                                                Abstarktion
+                                            </div>
+                                            <div class="col-2 fw-bold text-primary" style="border: 1px solid #000; padding: 10px;">
+                                                DESC 
+                                            </div>
+                                            <div class="col-4 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                SYM 
+                                            </div>
+                                            <div class="col-2 fw-bold text-primary" style="border: 1px solid #000; padding: 10px;">
+                                                NAT 
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="row kontrolle-VD"> <!--Kontrolle Ebene-->
+                                        <div class="col-2  fw-bold text-success bg-light" style="border: 1px solid #000; padding: 10px;">
+                                            Kontrolle
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            NOCO 
+                                        </div>
+                                        <div class="col-4 fw-bold text-success" style="border: 1px solid #000; padding: 10px;">
+                                            ACT 
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            MOD 
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                        
+                        <button class="btn btn-link p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTextWut" aria-expanded="false" aria-controls="collapseTextWut" onclick="toggleTextLabel(this)">
+                            Mehr Anzeigen   <!-- data-bs-target muss auf die ID angepasst werden-->
+                        </button>
+                        
+                        <div class="mt-auto">
+                            <span class="badge bg-dark text-light border">Wut</span>
+                            <span class="badge bg-secondary">MENU+CHAR/DESC+NAT/ACT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Beitrag Animal Crossing ende-->
+
+
+        <!--Beitrag Freude GFL2 Exilium -->
+        <div class="container">
+            <div class="item card mb-4 p-3 card-horizontal shadow-sm" daten-kategorie="vertrauen" daten-kategorie="filter">
+                <div class="row g-3">
+                    <!--Bild-->
+                    <div class="col-md-4">  <!-- alt="Bild" Bessere Namensgebung für alles bitte-->
+                        <img src="./assets/Bilder/Exilium-Vertrauen.PNG" class="img-thumbnail VergrößerbaresBild" alt="Bild Bild-Exilium-Vertrauen" style="cursor: zoom-in;">
+                        <p></p>
+                        
+                        <button type="button" class="btn btn-outline-primary p-2 videoEinbettung" data-bs-toggle="modal" data-bs-target=".videoModal" srcVideo="https://www.youtube.com/embed/MUOfLuAEDDk"> Modal Video</button>
+
+                    </div>
+
+                    <!--Text auf der Rechten seite-->
+                    <div class="col-md-8 d-flex flex-column">
+                        <h5>Girls’ Frontline 2: Exilium</h5>
+                        <h6 class="text-muted">MICA TEAM, 2023</h6>
+                        <h6>Emotion: Vertrauen</h6>
+                        <div>
+                            <p class="fst-italic"> 
+                                Bei GFL2 Eixlium existiert das sogenannte "Covenant System", das dem Spieler die Möglichkeit gibt, mit seinen Lieblingscharakteren eine Bindung einzugehen. 
+                                Hierfür muss der Spieler mit den jeweiligen Charakteren eine gewisse Vertrauensstufe erreichen, um in den gemeinsamen Bund zu treten.
+                            </p>
+                        </div>
+
+                        <div id="collapseTextVertrauen" class="collapse"> <!-- ID Muss für Jeden Eintrag Gändert werden-->
+                            
+                            <h6 class="text-muted">Emotionale Einordnung</h6>
+                            <p>
+                                Der Hintergrund hat eine warme gelbliche Färbung. Gelb werden anhand der Farbtheorie nach Goethe die Eigenschaften Reinheit und Angenehmheit zugeschrieben. 
+                                Des Weiteren wird der gelben Farbe die Emotion der Freude zugeschrieben. Betrachten wir nun die Situation im Kontext, dass der Spieler dieses Visual-Delegate auslöst, 
+                                indem er den Freundschaftswert des Charakters maximiert hat und einen Ring des Ewigen Bundes gibt. Kann dies als eine Szene der Liebe interpretiert werden. 
+                                Liebe selbst ist nach Plutchik eine Emotion, die aus den Grundemotionen Freude und Vertrauen entsteht.
+                                Die Entscheidung, dieses Visual Delegate der Grundemotion Vertrauen zuzuordnen, liegt daran, 
+                                dass Vertrauen die Grundlage inniger Beziehungen ist und im Spielweltkontext der Spieler Vertrauen aufbauen muss, um dieses Visual Delegate überhaupt auszulösen.
+                            </p>
+                            
+                            <h6 class="text-muted">Einordnung im Framework</h6>
+                            <p>
+                                In diesem Delegate wird der Charakter durch einen farbigen Hintergrund hervorgehoben. 
+                                Dabei wird für den Spieler die Spielwelt kurzzeitig verdeckt, um den Fokus auf den Charakter zu richten, mit dem der Spieler in ein Bund tritt. 
+                                Folglich lässt sich dieses delegate in seiner Tiefen ebene die Eigenschaft FIL zuordnen. 
+                                Gleichzeitig referenziert die farbliche Hervorhebung auf den nun im Fokus stehenden Charakter, 
+                                wodurch dieses delegate eine weitere Eigenschaft in der Tiefen ebene aufweist in Form von REF.
+                                Die Darstellung lässt sich in ihrer Abstraktion SYM zuordnen. Dies liegt an der symbolischen Darstellung der Emotion des Charakters. 
+                                Die warme Farbe soll, dass Vertrauen, Freude, sowie den glücklichen Moment des Charakters darstellen. 
+                                Während des Delegates hat der Spieler keine Kontrolle weder auf die Färbung noch auf die Dauer des Delegate. 
+                                Resultierend lässt es sich der Kontrolle Eigenschaft NOCO zuordnen.
+                            </p>
+                        </div>
+
+
+                        <div> <!--VD Frame einordnung-->
+                            <div class="container">
+                                    <div class="row">
+                                        <div class="col-10 fw-bold bg-secondary text-white" style="border: 1px solid #000;">
+                                            VD-Frame
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-2  fw-bold bg-light" style="border: 1px solid #000;">
+                                            VD-Kategorie
+                                        </div>
+                                        <div class="col-8  fw-bold bg-light"style="border: 1px solid #000;">
+                                            VD-Eigenschaft
+                                        </div>
+                                    </div>
+
+                                    <div class="row tiefe-VD"> <!--Tiefe Ebene-->
+                                        <div class="col-2 fw-bold text-danger bg-light" style="border: 1px solid #000; padding: 10px;">
+                                            Tiefe
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            MENU
+                                        </div>
+                                        <div class="col-4 fw-bold">
+                                            <div class="row">
+                                                <div class="col fw-bold text-danger" style="border: 1px solid #000; ">
+                                                    FIL
+                                                </div>
+                                                <div class="col fw-bold" style="border: 1px solid #000;">
+                                                    CHAR
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col fw-bold text-danger" style="border: 1px solid #000;">
+                                                    REF
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="col-2  fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                ENV
+                                            </div>
+                                    </div>
+                                        <div class="row abstraktion-VD"> <!--Abstraktion Ebene-->
+                                            <div class="col-2  fw-bold text-primary bg-light" style="border: 1px solid #000; padding: 10px;">
+                                                Abstarktion
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                DESC 
+                                            </div>
+                                            <div class="col-4 fw-bold text-primary" style="border: 1px solid #000; padding: 10px;">
+                                                SYM 
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                NAT 
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="row kontrolle-VD"> <!--Kontrolle Ebene-->
+                                        <div class="col-2  fw-bold text-success bg-light" style="border: 1px solid #000; padding: 10px;">
+                                            Kontrolle
+                                        </div>
+                                        <div class="col-2 fw-bold text-success" style="border: 1px solid #000; padding: 10px;">
+                                            NOCO 
+                                        </div>
+                                        <div class="col-4 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            ACT 
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            MOD 
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                        
+                        <button class="btn btn-link p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTextVertrauen" aria-expanded="false" aria-controls="collapseTextVertrauen" onclick="toggleTextLabel(this)">
+                            Mehr Anzeigen   <!-- data-bs-target muss auf die ID angepasst werden-->
+                        </button>
+                        
+                        <div class="mt-auto">
+                            <span class="badge bg-dark text-light border">Vertrauen</span>
+                            <span class="badge bg-secondary">REF/SYM/NOCO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Beitrag Exilium ende-->
+
+
+        <!--Beitrag Erwartung Halo Infinite -->
+        <div class="container">
+            <div class="item card mb-4 p-3 card-horizontal shadow-sm" daten-kategorie="erwartung" daten-kategorie="filter">
+                <div class="row g-3">
+                    <!--Bild-->
+                    <div class="col-md-4">  <!-- alt="Bild" Bessere Namensgebung für alles bitte-->
+                        <img src="./assets/Bilder/Halo Infinite-Erwartung.PNG" class="img-thumbnail VergrößerbaresBild" alt="Bild Bild-Halo-Erwartung" style="cursor: zoom-in;">
+                        <p></p>
+                        
+                        <button type="button" class="btn btn-outline-primary p-2 videoEinbettung" data-bs-toggle="modal" data-bs-target=".videoModal" srcVideo="https://www.youtube.com/embed/10mRmGhN3D4=1685"> Modal Video</button>
+
+                    </div>
+
+                    <!--Text auf der Rechten seite-->
+                    <div class="col-md-8 d-flex flex-column">
+                        <h5>Halo Infinite </h5>
+                        <h6 class="text-muted">343 INDUSTRIES, SKYBOX LABS, 2021</h6>
+                        <h6>Emotion: Erwartung</h6>
+                        <div>
+                            <p class="fst-italic"> 
+                                In Halo Infinite wird der Spieler in der Rolle als Master Chief von einer Smart-AI mit dem Namen "Die Waffe" unterstützt. 
+                                Die in einer Hologrammform im Visual Delegate zu sehen ist. In dieser Szene spricht Master Chief mit seiner AI über Cortana und was sie getan hat. 
+                                Bei Cortana handelt es sich um die vorherige Smart-AI, die Master Chief über mehrere Jahre unterstützte.
+                            </p>
+                        </div>
+
+                        <div id="collapseTextErwartung" class="collapse"> <!-- ID Muss für Jeden Eintrag Gändert werden-->
+                            
+                            <h6 class="text-muted">Emotionale Einordnung</h6>
+                            <p>
+                                Die Zuordnung der Emotion auf Erwartung kommt aus der Körpersprache und dem Kontext der Spielszene. 
+                                Menschliche Körpersprache ist kontextuell. Wir erhalten Input in Form von Informationen jeglicher Art (Audio, visuelle und physische) und unser Körper reagiert darauf. 
+                                Wird der Kontext der Spielszene betrachtet, zeigt sich, dass die Charakterin mit dem Namen „Die Waffe“ den Spieler fragt, 
+                                was Cortana getan haben muss, dass sie erschaffen werden musste. Um Cortana zu stoppen.
+                                Wenn man nun ihre Körpersprache betrachtet, erkennt man an der Mimik des Gesichts, dass sie ihre Augen etwas weiter geöffnet hat. 
+                                Zudem betrachtet sie den Spieler mit voller Aufmerksamkeit, weil sie eine Antwort erwartet.
+                                So lässt sich ihr emotionaler Zustand der Grundemotion der Erwartung zuordnen. Sie möchte eine Antwort auf ihre Frage, 
+                                die ihr indirekt verhelfen wird, zu verstehen, warum sie existiert und warum sie Cortana aufhalten sollte.
+                            </p>
+                            
+                            <h6 class="text-muted">Einordnung im Framework</h6>
+                            <p>
+                                In der Szene fragt die Waffe, was Cortana getan hat und schaut den Spieler erwartend an eine Antwort zu erhalten. 
+                                Hierbei liegt der Fokus auf ihrer Mimik, dieses Gefühl der Erwartung zu überbringen. 
+                                Folglich lässt sich dieses visual delegate in der Tiefen ebene der Eigenschaft CHAR zuordnen. 
+                                Ihre Mimik ist in der Szene natürlich für einen Menschen gehalten, den sie mit ihrem Hologramm darstellen möchte. 
+                                Des Weiteren sind ihre Animationen im Einklang mit anderen Charakteranimationen in der Spielwelt, weswegen es sich um eine NAT Eigenschaft der Abstraktion handelt. 
+                                Diese gesamte Konversation findet in einer Zwischensequenz statt. Folglich hat der Spieler keine Kontrolle über das Visual Delegate.
+                                Insgesamt lässt sich dieses Visual Delegate mit den Eigenschaften (CHAR/NAT/NOCO) beschreiben.
+                            </p>
+                        </div>
+
+
+                        <div> <!--VD Frame einordnung-->
+                            <div class="container">
+                                    <div class="row">
+                                        <div class="col-10 fw-bold bg-secondary text-white" style="border: 1px solid #000;">
+                                            VD-Frame
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-2  fw-bold bg-light" style="border: 1px solid #000;">
+                                            VD-Kategorie
+                                        </div>
+                                        <div class="col-8  fw-bold bg-light"style="border: 1px solid #000;">
+                                            VD-Eigenschaft
+                                        </div>
+                                    </div>
+
+                                    <div class="row tiefe-VD"> <!--Tiefe Ebene-->
+                                        <div class="col-2 fw-bold text-danger bg-light" style="border: 1px solid #000; padding: 10px;">
+                                            Tiefe
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            MENU
+                                        </div>
+                                        <div class="col-4 fw-bold">
+                                            <div class="row">
+                                                <div class="col fw-bold" style="border: 1px solid #000; ">
+                                                    FIL
+                                                </div>
+                                                <div class="col fw-bold text-danger" style="border: 1px solid #000;">
+                                                    CHAR
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col fw-bold" style="border: 1px solid #000;">
+                                                    REF
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="col-2  fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                ENV
+                                            </div>
+                                    </div>
+                                        <div class="row abstraktion-VD"> <!--Abstraktion Ebene-->
+                                            <div class="col-2  fw-bold text-primary bg-light" style="border: 1px solid #000; padding: 10px;">
+                                                Abstarktion
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                DESC 
+                                            </div>
+                                            <div class="col-4 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                SYM 
+                                            </div>
+                                            <div class="col-2 fw-bold text-primary" style="border: 1px solid #000; padding: 10px;">
+                                                NAT 
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="row kontrolle-VD"> <!--Kontrolle Ebene-->
+                                        <div class="col-2  fw-bold text-success bg-light" style="border: 1px solid #000; padding: 10px;">
+                                            Kontrolle
+                                        </div>
+                                        <div class="col-2 fw-bold text-success" style="border: 1px solid #000; padding: 10px;">
+                                            NOCO 
+                                        </div>
+                                        <div class="col-4 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            ACT 
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            MOD 
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                        
+                        <button class="btn btn-link p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTextErwartung" aria-expanded="false" aria-controls="collapseTextErwartung" onclick="toggleTextLabel(this)">
+                            Mehr Anzeigen   <!-- data-bs-target muss auf die ID angepasst werden-->
+                        </button>
+                        
+                        <div class="mt-auto">
+                            <span class="badge bg-dark text-light border">Erwartung</span>
+                            <span class="badge bg-secondary">REF/SYM/NOCO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Beitrag Erwartung Halo Infinite ende-->
+
+
+        <!--Beitrag Freude Sims 4 -->
+        <div class="container">
+            <div class="item card mb-4 p-3 card-horizontal shadow-sm" daten-kategorie="freude" daten-kategorie="filter">
+                <div class="row g-3">
+                    <!--Bild-->
+                    <div class="col-md-4">  <!-- alt="Bild" Bessere Namensgebung für alles bitte-->
+                        <img src="./assets/Bilder/Sims 4 -Freude.PNG" class="img-thumbnail VergrößerbaresBild" alt="Bild Bild-Sims4-Freude" style="cursor: zoom-in;">
+                        <p></p>
+                        
+                        <button type="button" class="btn btn-outline-primary p-2 videoEinbettung" data-bs-toggle="modal" data-bs-target=".videoModal" srcVideo="https://www.youtube.com/embed/2BUHtqroKRw"> Modal Video</button>
+
+                    </div>
+
+                    <!--Text auf der Rechten seite-->
+                    <div class="col-md-8 d-flex flex-column">
+                        <h5>The Sims 4 </h5>
+                        <h6 class="text-muted">THE SIMS STUDIO, MAXIS, 2014</h6>
+                        <h6>Emotion: Freude</h6>
+                        <div>
+                            <p class="fst-italic"> 
+                                In Sims steuert de spielen eine Lebenssimulation von mehreren namensgebenden Sims Charakteren. 
+                                Hierbei kontrolliert er ihr Verhalten und Umgebung.
+                            </p>
+                        </div>
+
+                        <div id="collapseTextFreude" class="collapse"> <!-- ID Muss für Jeden Eintrag Gändert werden-->
+                            
+                            <h6 class="text-muted">Emotionale Einordnung</h6>
+                            <p>
+                                Anhand des Visual Delegate und seiner deskriptiven Darstellung in Form von dem Wort "Happy" lässt sich erkennen, 
+                                dass der ausgewählte Charakter zu diesem Zeitpunkt die Emotion der Freude empfindet. 
+                                Des Weiteren wird diese Emotion durch die grüne Farbe verstärkt. 
+                                Grün wird mit Freude und Leben assoziiert, weswegen sie symbolisch für Freude steht und den Text verstärkt.
+                            </p>
+                            
+                            <h6 class="text-muted">Einordnung im Framework</h6>
+                            <p>
+                                Dieses visual delegate besteht aus mehreren einzelnen Elementen, die als einzelnen Delegates verstanden werden könnten. 
+                                Der Kernpunkte liegen auf folgenden drei Elementen Figur, Text und Hintergrundfarbe. 
+                                Das Delegate ist innerhalb der Nutzeroberfläche verankert sowie referenziert es den ausgewählten Charakter, 
+                                weswegen es sich der Tiefen ebene den Eigenschaften Menu (MENU) und Referenz (REF) zuordnen lässt. 
+                                In der Abstraktion ist es deskriptiv (DES) durch den Text, der die Emotion klar benennt, aber auch symbolisch (SYM) durch die Integrierung der Farbe, 
+                                die für jene Emotion steht. Die Darstellung des Charakters lässt seine Emotion anhand seiner Körpersprache symbolisch erkennen. 
+                                Betrachtet man die Kontrollebene, lässt sich dieses Delegate vom Spieler aktiv verändern (ACT), 
+                                indem er die Emotion des ausgewählten Charakters durch bestimmte Interaktionen verändert.
+                                Fügt man nun alle Eigenschaften zusammen, lässt sich das Visual Delegate mit den Kürzeln (MENU,REF/DES,SYM/ACT) beschreiben.
+                            </p>
+                        </div>
+
+
+                        <div> <!--VD Frame einordnung-->
+                            <div class="container">
+                                    <div class="row">
+                                        <div class="col-10 fw-bold bg-secondary text-white" style="border: 1px solid #000;">
+                                            VD-Frame
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-2  fw-bold bg-light" style="border: 1px solid #000;">
+                                            VD-Kategorie
+                                        </div>
+                                        <div class="col-8  fw-bold bg-light"style="border: 1px solid #000;">
+                                            VD-Eigenschaft
+                                        </div>
+                                    </div>
+
+                                    <div class="row tiefe-VD"> <!--Tiefe Ebene-->
+                                        <div class="col-2 fw-bold text-danger bg-light" style="border: 1px solid #000; padding: 10px;">
+                                            Tiefe
+                                        </div>
+                                        <div class="col-2 fw-bold text-danger" style="border: 1px solid #000; padding: 10px;">
+                                            MENU
+                                        </div>
+                                        <div class="col-4 fw-bold">
+                                            <div class="row">
+                                                <div class="col fw-bold" style="border: 1px solid #000; ">
+                                                    FIL
+                                                </div>
+                                                <div class="col fw-bold" style="border: 1px solid #000;">
+                                                    CHAR
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col fw-bold text-danger" style="border: 1px solid #000;">
+                                                    REF
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="col-2  fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                ENV
+                                            </div>
+                                    </div>
+                                        <div class="row abstraktion-VD"> <!--Abstraktion Ebene-->
+                                            <div class="col-2  fw-bold text-primary bg-light" style="border: 1px solid #000; padding: 10px;">
+                                                Abstarktion
+                                            </div>
+                                            <div class="col-2 fw-bold text-primary" style="border: 1px solid #000; padding: 10px;">
+                                                DESC 
+                                            </div>
+                                            <div class="col-4 fw-bold text-primary" style="border: 1px solid #000; padding: 10px;">
+                                                SYM 
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                NAT 
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="row kontrolle-VD"> <!--Kontrolle Ebene-->
+                                        <div class="col-2  fw-bold text-success bg-light" style="border: 1px solid #000; padding: 10px;">
+                                            Kontrolle
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            NOCO 
+                                        </div>
+                                        <div class="col-4 fw-bold text-success" style="border: 1px solid #000; padding: 10px;">
+                                            ACT 
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            MOD 
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                        
+                        <button class="btn btn-link p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTextFreude" aria-expanded="false" aria-controls="collapseTextFreude" onclick="toggleTextLabel(this)">
+                            Mehr Anzeigen   <!-- data-bs-target muss auf die ID angepasst werden-->
+                        </button>
+                        
+                        <div class="mt-auto">
+                            <span class="badge bg-dark text-light border">Freude</span>
+                            <span class="badge bg-secondary">MENU,REF/DESC,SYM/ACT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Beitrag Freude Sims 4 ende-->
+
+
+        <!--Beitrag Trauer MGS3 -->
+        <div class="container">
+            <div class="item card mb-4 p-3 card-horizontal shadow-sm" daten-kategorie="traurigkeit" daten-kategorie="filter">
+                <div class="row g-3">
+                    <!--Bild-->
+                    <div class="col-md-4">  <!-- alt="Bild" Bessere Namensgebung für alles bitte-->
+                        <img src="./assets/Bilder/MGS3-Trauer.PNG" class="img-thumbnail VergrößerbaresBild" alt="Bild Bild-MGS3-Trauer" style="cursor: zoom-in;">
+                        <p></p>
+                        
+                        <button type="button" class="btn btn-outline-primary p-2 videoEinbettung" data-bs-toggle="modal" data-bs-target=".videoModal" srcVideo="https://www.youtube.com/embed/0CFFkV7Zlds"> Modal Video</button>
+
+                    </div>
+
+                    <!--Text auf der Rechten seite-->
+                    <div class="col-md-8 d-flex flex-column">
+                        <h5>Metal Gear Solid 3: Snake Eater </h5>
+                        <h6 class="text-muted">Konami Computer Entertainment Japan, 2005 </h6>
+                        <h6>Emotion: Traurigkeit</h6>
+                        <div>
+                            <p class="fst-italic"> 
+                                In Metal Gear Solid 3: Snake eater wird der Spieler in der Rolle als Snake in sowjetisches Gebiet geschleust, um einen Forscher verdeckt aus dem Land zu bringen. 
+                                Die schlägt fehl und die Geschehnisse des Spiels entfalten sich. Der Höhepunkt der Geschichte mündet in einem Überlebenskampf zwischen Snake und seiner Mentorin, 
+                                die er wie eine zweite Mutter ansieht. 
+                                Das Duell endet mit dem Sieg von Snake und dem Tod von seiner Mentorin.
+                            </p>
+                        </div>
+
+                        <div id="collapseTextTrauer" class="collapse"> <!-- ID Muss für Jeden Eintrag Gändert werden-->
+                            
+                            <h6 class="text-muted">Emotionale Einordnung</h6>
+                            <p>
+                                Snake tötet in dieser Szene seine Mentorin, die für ihn in seinem Leben eine mütterliche Rolle einnahm. 
+                                Das Visual Delegate referenziert das Blut, das sie vergießt, indem alle weißen Blumen um sie herum rot gefärbt werden. 
+                                Symbolisch stellt dies den ersten Mord von Snake dar und damit den Verlust seiner Unschuld, repräsentiert durch die weißen Blumen. 
+                                Getränkt im Blut einer Person, die er familiär geliebt hat. So lässt sich die Situation kontextuell der Trauer zuordnen, 
+                                indem Snake in diesem Moment tiefe Trauer verspürt.
+                            </p>
+                            
+                            <h6 class="text-muted">Einordnung im Framework</h6>
+                            <p>
+                                Dieses Visual Delegate setzt einen starken Fokus auf die Umgebung, wie sich die Farben der Blumen verändern, 
+                                folglich lässt es sich der Eigenschaft der Umgebung (ENV) zuordnen. 
+                                In seiner Bedeutung ist das Delegate sehr abstrakt, indem der Farbwechsel der Blumen die Emotion des Charakters erahnen lässt. 
+                                Die ursprüngliche Farbe der Blumen war weis und nachdem der Protagonist seine Mentorin erschießt, färben sie sich rot. 
+                                Die Farbe Weiß lässt sich mit Unschuld und Hoffnung zuordnen und mit dem Farbwechsel auf Rot wird die Hoffnung symbolisch besudelt.
+                                So lässt sich es sich der Eigenschaft der Symbolik (SYM) der Abstraktions-Kategorie zuordnen. Während dieser Sequenz hat der Spieler keine Kontrolle (NOCO).
+                                So lässt sich dieses Visual Delegate mit den Kürzeln (ENV/SYM/NOCO) beschreiben.
+                            </p>
+                        </div>
+
+
+                        <div> <!--VD Frame einordnung-->
+                            <div class="container">
+                                    <div class="row">
+                                        <div class="col-10 fw-bold bg-secondary text-white" style="border: 1px solid #000;">
+                                            VD-Frame
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-2  fw-bold bg-light" style="border: 1px solid #000;">
+                                            VD-Kategorie
+                                        </div>
+                                        <div class="col-8  fw-bold bg-light"style="border: 1px solid #000;">
+                                            VD-Eigenschaft
+                                        </div>
+                                    </div>
+
+                                    <div class="row tiefe-VD"> <!--Tiefe Ebene-->
+                                        <div class="col-2 fw-bold text-danger bg-light" style="border: 1px solid #000; padding: 10px;">
+                                            Tiefe
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            MENU
+                                        </div>
+                                        <div class="col-4 fw-bold">
+                                            <div class="row">
+                                                <div class="col fw-bold" style="border: 1px solid #000; ">
+                                                    FIL
+                                                </div>
+                                                <div class="col fw-bold" style="border: 1px solid #000;">
+                                                    CHAR
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col fw-bold" style="border: 1px solid #000;">
+                                                    REF
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="col-2  fw-bold text-danger" style="border: 1px solid #000; padding: 10px;">
+                                                ENV
+                                            </div>
+                                    </div>
+                                        <div class="row abstraktion-VD"> <!--Abstraktion Ebene-->
+                                            <div class="col-2  fw-bold text-primary bg-light" style="border: 1px solid #000; padding: 10px;">
+                                                Abstarktion
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                DESC 
+                                            </div>
+                                            <div class="col-4 fw-bold text-primary" style="border: 1px solid #000; padding: 10px;">
+                                                SYM 
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                NAT 
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="row kontrolle-VD"> <!--Kontrolle Ebene-->
+                                        <div class="col-2  fw-bold text-success bg-light" style="border: 1px solid #000; padding: 10px;">
+                                            Kontrolle
+                                        </div>
+                                        <div class="col-2 fw-bold text-success" style="border: 1px solid #000; padding: 10px;">
+                                            NOCO 
+                                        </div>
+                                        <div class="col-4 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            ACT 
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            MOD 
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                        
+                        <button class="btn btn-link p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTextTrauer" aria-expanded="false" aria-controls="collapseTextTrauer" onclick="toggleTextLabel(this)">
+                            Mehr Anzeigen   <!-- data-bs-target muss auf die ID angepasst werden-->
+                        </button>
+                        
+                        <div class="mt-auto">
+                            <span class="badge bg-dark text-light border">Traurigkeit</span>
+                            <span class="badge bg-secondary">REF/SYM/NOCO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Beitrag Trauer MGS3 ende-->
+
+
+        <!--Beitrag Überaschung MGS -->
+        <div class="container">
+            <div class="item card mb-4 p-3 card-horizontal shadow-sm" daten-kategorie="überraschung" daten-kategorie="filter">
+                <div class="row g-3">
+                    <!--Bild-->
+                    <div class="col-md-4">  <!-- alt="Bild" Bessere Namensgebung für alles bitte-->
+                        <img src="./assets/Bilder/Überrascht MGS.PNG" class="img-thumbnail VergrößerbaresBild" alt="Bild Bild-MGS-Überraschung" style="cursor: zoom-in;">
+                        <p></p>
+                        
+                        <button type="button" class="btn btn-outline-primary p-2 videoEinbettung" data-bs-toggle="modal" data-bs-target=".videoModal" srcVideo="https://www.youtube.com/embed/1I9cJu8hyuA"> Modal Video</button>
+
+                    </div>
+
+                    <!--Text auf der Rechten seite-->
+                    <div class="col-md-8 d-flex flex-column">
+                        <h5>Metal Gear Solid</h5>
+                        <h6 class="text-muted">Konami Computer Entertainment Japan, 1996 </h6>
+                        <h6>Emotion: Überraschung</h6>
+                        <div>
+                            <p class="fst-italic"> 
+                                In Metal Gear Solid muss der Spieler in der Rolle von Solid Snake die Militärbasis "Shadow Mosis", 
+                                die unter der Kontrolle einer terroristischen Organisation liegt, infiltrieren. 
+                                Hierbei muss der Spieler alle seine Fähigkeiten nutzen, möglichst unentdeckt fortzubewegen. 
+                                Hierzu können die Gegebenheiten der Umgebung zum Vorteil oder Nachteil des Spielers werden. 
+                                So ist es möglich, Fußspuren kurzzeitig im Schnee zu hinterlassen.
+                            </p>
+                        </div>
+
+                        <div id="collapseTextÜberraschung" class="collapse"> <!-- ID Muss für Jeden Eintrag Gändert werden-->
+                            
+                            <h6 class="text-muted">Emotionale Einordnung</h6>
+                            <p>
+                                Entdeckt eine Wache die Fußspuren, verfolgt diese sie, um den Ursprung zu finden. 
+                                Hierbei wird die Verwunderung der Wache durch ein weises Ausrufezeichen gekennzeichnet. 
+                                Das Ausrufezeichen steht symbolisch für Überraschung und Wachsamkeit. 
+                                Schließlich sollten dort keine Fußspuren sein, weswegen die Wache nun überprüfen muss, ob diese zu einem Verbündeten oder Eindringling gehören.
+                            </p>
+                            
+                            <h6 class="text-muted">Einordnung im Framework</h6>
+                            <p>
+                                Das weiße Ausrufezeichen bildet eine Referenz (REF) auf den Soldaten, der seine Aufmerksamkeit auf die entdeckten Fußspuren richtet. 
+                                Es ist ein symbolisches (SYM) Visual Delegate, das durch seine Färbung und Gestaltung dem Spieler vermittelt, 
+                                dass der Soldat nun aufmerksam ist. Seine leichte Verwirrung wird durch die weiße Färbung des Ausrufezeichens symbolisiert. 
+                                Zuletzt hat der Spieler eine aktive (ACT) Teilnahme an diesem Delegate, indem dieser die Fußspuren hinterlässt oder bewusst an jenen Stellen platziert, 
+                                um den Soldaten wegzulocken.
+                            </p>
+                        </div>
+
+
+                        <div> <!--VD Frame einordnung-->
+                            <div class="container">
+                                    <div class="row">
+                                        <div class="col-10 fw-bold bg-secondary text-white" style="border: 1px solid #000;">
+                                            VD-Frame
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-2  fw-bold bg-light" style="border: 1px solid #000;">
+                                            VD-Kategorie
+                                        </div>
+                                        <div class="col-8  fw-bold bg-light"style="border: 1px solid #000;">
+                                            VD-Eigenschaft
+                                        </div>
+                                    </div>
+
+                                    <div class="row tiefe-VD"> <!--Tiefe Ebene-->
+                                        <div class="col-2 fw-bold text-danger bg-light" style="border: 1px solid #000; padding: 10px;">
+                                            Tiefe
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            MENU
+                                        </div>
+                                        <div class="col-4 fw-bold">
+                                            <div class="row">
+                                                <div class="col fw-bold" style="border: 1px solid #000; ">
+                                                    FIL
+                                                </div>
+                                                <div class="col fw-bold" style="border: 1px solid #000;">
+                                                    CHAR
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col fw-bold text-danger" style="border: 1px solid #000;">
+                                                    REF
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="col-2  fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                ENV
+                                            </div>
+                                    </div>
+                                        <div class="row abstraktion-VD"> <!--Abstraktion Ebene-->
+                                            <div class="col-2  fw-bold text-primary bg-light" style="border: 1px solid #000; padding: 10px;">
+                                                Abstarktion
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                DESC 
+                                            </div>
+                                            <div class="col-4 fw-bold text-primary" style="border: 1px solid #000; padding: 10px;">
+                                                SYM 
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                NAT 
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="row kontrolle-VD"> <!--Kontrolle Ebene-->
+                                        <div class="col-2  fw-bold text-success bg-light" style="border: 1px solid #000; padding: 10px;">
+                                            Kontrolle
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            NOCO 
+                                        </div>
+                                        <div class="col-4 fw-bold text-success" style="border: 1px solid #000; padding: 10px;">
+                                            ACT 
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            MOD 
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                        
+                        <button class="btn btn-link p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTextÜberraschung" aria-expanded="false" aria-controls="collapseTextÜberraschung" onclick="toggleTextLabel(this)">
+                            Mehr Anzeigen   <!-- data-bs-target muss auf die ID angepasst werden-->
+                        </button>
+                        
+                        <div class="mt-auto">
+                            <span class="badge bg-dark text-light border">Überraschung</span>
+                            <span class="badge bg-secondary">REF/SYM/ACT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Beitrag Überaschung MGS ende-->
+
+        <!--Beitrag Furcht GTA -->
+        <div class="container">
+            <div class="item card mb-4 p-3 card-horizontal shadow-sm" daten-kategorie="furcht" daten-kategorie="filter">
+                <div class="row g-3">
+                    <!--Bild-->
+                    <div class="col-md-4">  <!-- alt="Bild" Bessere Namensgebung für alles bitte-->
+                        <img src="./assets/Bilder/GTAV-Furcht.PNG" class="img-thumbnail VergrößerbaresBild" alt="Bild Bild-GTA-Furcht" style="cursor: zoom-in;">
+                        <p></p>
+                        
+                        <button type="button" class="btn btn-outline-primary p-2 videoEinbettung" data-bs-toggle="modal" data-bs-target=".videoModal" srcVideo="https://www.youtube.com/embed/dz3npdFdBdQ"> Modal Video</button>
+
+                    </div>
+
+                    <!--Text auf der Rechten seite-->
+                    <div class="col-md-8 d-flex flex-column">
+                        <h5>Grand Theft Auto V </h5>
+                        <h6 class="text-muted">ROCKSTAR NORTH, 2013</h6>
+                        <h6>Emotion: Furcht</h6>
+                        <div>
+                            <p class="fst-italic"> 
+                                Bei GTA handelt es sich um eine open world sandbox, in der dem Spieler freie Hand überlassen wird, was dieser tut.  
+                                Die Umwelt reagiert auf das Handeln vom Spieler. Bedroht der Spieler NPCs mit Waffen, können sie mit mehreren Reaktionen reagieren, 
+                                die von der Flucht bis hin zu Konfrontation reichen.
+                            </p>
+                        </div>
+
+                        <div id="collapseTextFurchtGTA" class="collapse"> <!-- ID Muss für Jeden Eintrag Gändert werden-->
+                            
+                            <h6 class="text-muted">Emotionale Einordnung</h6>
+                            <p>
+                                Die innere Emotion des NPC ist klar der Furcht zuzuordnen. Er wird von einer Waffe bedroht und versucht sich in Sicherheit zu begeben. 
+                                Hierbei lässt sich die Furcht anhand der Körpersprache erkennen. Der NPC versucht sich kleiner zu machen. 
+                                Unterbricht den Augenkontakt zum Spieler und versucht eine Richtung zu fliehen. 
+                                Insgesamt handelt es sich um eine natürliche Reaktion auf eine gefahrene Situation, in der eine Person ihr Leben sichern möchte.
+                            </p>
+                            
+                            <h6 class="text-muted">Einordnung im Framework</h6>
+                            <p>
+                                Bei diesem Delegate sind die Aktionen der NPCs auf die gezielt wird im Fokus. 
+                                Folglich wird die Eigenschaft Charakter (CHAR) der tiefen Kategorie betrachtet. 
+                                In der Abstraktion ist das Delegate naturalistisch, die betroffenen Charaktere bewegen sich natürlich (NAT) für die Spielwelt gesetzten Eigenschaften. 
+                                Ihr verhalten ist aber auch stark an realen menschlichen veralten orientiert. 
+                                In dieser Situation hat der Spieler aktiv beigetragen, diesen Zustand beim NPC auszulösen. 
+                                Weswegen dieses Delegate sich in der Kontrollkategorie der Eigenschaft aktiv (ACT) zuschreiben lässt.
+                            </p>
+                        </div>
+
+
+                        <div> <!--VD Frame einordnung-->
+                            <div class="container">
+                                    <div class="row">
+                                        <div class="col-10 fw-bold bg-secondary text-white" style="border: 1px solid #000;">
+                                            VD-Frame
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-2  fw-bold bg-light" style="border: 1px solid #000;">
+                                            VD-Kategorie
+                                        </div>
+                                        <div class="col-8  fw-bold bg-light"style="border: 1px solid #000;">
+                                            VD-Eigenschaft
+                                        </div>
+                                    </div>
+
+                                    <div class="row tiefe-VD"> <!--Tiefe Ebene-->
+                                        <div class="col-2 fw-bold text-danger bg-light" style="border: 1px solid #000; padding: 10px;">
+                                            Tiefe
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            MENU
+                                        </div>
+                                        <div class="col-4 fw-bold">
+                                            <div class="row">
+                                                <div class="col fw-bold" style="border: 1px solid #000; ">
+                                                    FIL
+                                                </div>
+                                                <div class="col fw-bold text-danger" style="border: 1px solid #000;">
+                                                    CHAR
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col fw-bold" style="border: 1px solid #000;">
+                                                    REF
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="col-2  fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                ENV
+                                            </div>
+                                    </div>
+                                        <div class="row abstraktion-VD"> <!--Abstraktion Ebene-->
+                                            <div class="col-2  fw-bold text-primary bg-light" style="border: 1px solid #000; padding: 10px;">
+                                                Abstarktion
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                DESC 
+                                            </div>
+                                            <div class="col-4 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                SYM 
+                                            </div>
+                                            <div class="col-2 fw-bold text-primary" style="border: 1px solid #000; padding: 10px;">
+                                                NAT 
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="row kontrolle-VD"> <!--Kontrolle Ebene-->
+                                        <div class="col-2  fw-bold bg-light text-success" style="border: 1px solid #000; padding: 10px;">
+                                            Kontrolle
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            NOCO 
+                                        </div>
+                                        <div class="col-4 fw-bold text-success" style="border: 1px solid #000; padding: 10px;">
+                                            ACT 
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            MOD 
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                        
+                        <button class="btn btn-link p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTextFurchtGTA" aria-expanded="false" aria-controls="collapseTextFurchtGTA" onclick="toggleTextLabel(this)">
+                            Mehr Anzeigen   <!-- data-bs-target muss auf die ID angepasst werden-->
+                        </button>
+                        
+                        <div class="mt-auto">
+                            <span class="badge bg-dark text-light border">Furcht</span>
+                            <span class="badge bg-secondary">CHAR/NAT/ACT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Beitrag Furcht GTA ende-->
+
+        <!--Beitrag Trauer Destiny 2-->
+        <div class="container">
+            <div class="item card mb-4 p-3 card-horizontal shadow-sm" daten-kategorie="traurigkeit" daten-kategorie="filter">
+                <div class="row g-3">
+                    <!--Bild-->
+                    <div class="col-md-4">  <!-- alt="Bild" Bessere Namensgebung für alles bitte-->
+                        <img src="./assets/Bilder/Destiny-Trauer.PNG" class="img-thumbnail VergrößerbaresBild" alt="Bild Bild-Destiny-Trauer" style="cursor: zoom-in;">
+                        <p></p>                   
+                        <button type="button" class="btn btn-outline-primary p-2 videoEinbettung" data-bs-toggle="modal" data-bs-target=".videoModal" srcVideo="https://www.youtube.com/embed/bu3lsBbdQbI"> Modal Video</button>
+
+                    </div>
+
+                    <!--Text auf der Rechten seite-->
+                    <div class="col-md-8 d-flex flex-column">
+                        <h5>Destiny 2</h5>
+                        <h6 class="text-muted">BUNGIE, 2017 </h6>
+                        <h6>Emotion: Trauer</h6>
+                        <div>
+                            <p class="fst-italic"> 
+                                Im Destiny Universum gibt es die Hüter. Sie sind Krieger, die mithilfe eines Geistes nahezu Unsterblichkeit erlangen, 
+                                indem die Geister sie nach ihrem Tod im Kampf wiederbeleben. Jeder Hüter hat nur einen Geist, wird dieser zerstört, 
+                                können sich nicht mehr wiederbelebt werden und sie sterben ihren letzten Tod.
+                                In dieser Szene befinden sich mehrere Hüter auf einer Mission und eine Hüterin, die ihren Geist vor langer Zeit verlor, wird tödlich verletzt.
+                            </p>
+                        </div>
+
+                        <div id="collapseTextTrauerDestiny2" class="collapse"> <!-- ID Muss für Jeden Eintrag Gändert werden-->
+                            
+                            <h6 class="text-muted">Emotionale Einordnung</h6>
+                            <p>
+                                Während der Mission wird die Hüterin Eris Morn tödlich verwundet. Ein Hüter der mit ihr seit langer Zeit befreundet war, ist, 
+                                zeuge davon und versucht ihr zu helfen, doch kann er nur am Ende ihren leblosen Körper vorfinden. 
+                                Er umarmt diesen und weint. Während dieser Szene ist die Animation besonders zu betrachten, wie vorsichtig der Hüter sie, anfangs überprüft, 
+                                ob sie noch am Leben ist. Sein Gesichtsausdruck fällt und er nimmt sie an schleißend in den Arm und weint.
+                                Der ganze Ablauf der Animation zeigt einen zutiefst emotionalen Moment des Charakters, wie er Hoffnung und die anschließende Trauer durchlebt, 
+                                dass eine Person, die ihm wichtig ist, verstarb.
+                            </p>
+                            
+                            <h6 class="text-muted">Einordnung im Framework</h6>
+                            <p>
+                                Bei diesem Visual Delegate ist die Körpersprache des Charakters im Fokus, weswegen es sich der dazugehörigen Eigenschaft er Tiefen Kategorie Charakter (CHAR) zuordnen lässt. 
+                                In der Abstraktion ist das Delegate naturalistisch (NAT) für die Spielwelt. 
+                                Insbesondere die Bewegungen der menschlichen Figuren sind nach realen menschlichen Bewegungen nachempfunden und mit Eigenschaft der narrativen Welt erweitert. 
+                                In diesem Fall hat der Spieler keine Kontrolle (NOCO) über das Visual Delegate, weil es sich um eine animierte Szene innerhalb der Mission handelt.
+                            </p>
+                        </div>
+
+
+                        <div> <!--VD Frame einordnung-->
+                            <div class="container">
+                                    <div class="row">
+                                        <div class="col-10 fw-bold bg-secondary text-white" style="border: 1px solid #000;">
+                                            VD-Frame
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-2  fw-bold bg-light" style="border: 1px solid #000;">
+                                            VD-Kategorie
+                                        </div>
+                                        <div class="col-8  fw-bold bg-light"style="border: 1px solid #000;">
+                                            VD-Eigenschaft
+                                        </div>
+                                    </div>
+
+                                    <div class="row tiefe-VD"> <!--Tiefe Ebene-->
+                                        <div class="col-2 fw-bold text-danger bg-light" style="border: 1px solid #000; padding: 10px;">
+                                            Tiefe
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            MENU
+                                        </div>
+                                        <div class="col-4 fw-bold">
+                                            <div class="row">
+                                                <div class="col fw-bold" style="border: 1px solid #000; ">
+                                                    FIL
+                                                </div>
+                                                <div class="col fw-bold text-danger" style="border: 1px solid #000;">
+                                                    CHAR
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col fw-bold" style="border: 1px solid #000;">
+                                                    REF
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="col-2  fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                ENV
+                                            </div>
+                                    </div>
+                                        <div class="row abstraktion-VD"> <!--Abstraktion Ebene-->
+                                            <div class="col-2  fw-bold text-primary bg-light" style="border: 1px solid #000; padding: 10px;">
+                                                Abstarktion
+                                            </div>
+                                            <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                DESC 
+                                            </div>
+                                            <div class="col-4 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                                SYM 
+                                            </div>
+                                            <div class="col-2 fw-bold text-primary" style="border: 1px solid #000; padding: 10px;">
+                                                NAT 
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="row kontrolle-VD"> <!--Kontrolle Ebene-->
+                                        <div class="col-2  fw-bold bg-light text-success" style="border: 1px solid #000; padding: 10px;">
+                                            Kontrolle
+                                        </div>
+                                        <div class="col-2 fw-bold text-success" style="border: 1px solid #000; padding: 10px;">
+                                            NOCO 
+                                        </div>
+                                        <div class="col-4 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            ACT 
+                                        </div>
+                                        <div class="col-2 fw-bold" style="border: 1px solid #000; padding: 10px;">
+                                            MOD 
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                        
+                        <button class="btn btn-link p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTextTrauerDestiny2" aria-expanded="false" aria-controls="collapseTextTrauerDestiny2" onclick="toggleTextLabel(this)">
+                            Mehr Anzeigen   <!-- data-bs-target muss auf die ID angepasst werden-->
+                        </button>
+                        
+                        <div class="mt-auto">
+                            <span class="badge bg-dark text-light border">Traurigkeit</span>
+                            <span class="badge bg-secondary">CHAR/NAT/NOCO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Beitrag Trauer Destiny 2 ende-->
+
+
+
+        
+
+
+
+
+
+        <!--Beitrag <div class="modal fade" id="exampleModal" tabindex="-1"> ende-->
+        <div class="modal fade" id="bildModal" tabindex="-1">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content bg-transparent border-0">
+                    <div class="modal-body">
+                        <!--Beitrag img src="https://arknights.wiki.gg/images/a/af/60_i19_2.png?3ec07b" id="exampleModal" ende-->
+                        <img id="exampleModal" src="">
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="row gy-4 img-fluid">
-          <div class="col-md-6">
-            <div class="card-custom rounded-4 bg-base shadow-effect" data-aos="fade-right" data-aos-delay="300" onmouseover="changeImage(this, './assets/Projekt 1/Projekt 1 - Bild 2.png')" onmouseout="restoreImage(this, './assets/Projekt 1/Projekt 1 - Bild 1.png')">
-              <div class="card-custom-image rounded-4">
-                <img class="rounded-4" src="./assets/Projekt 1/Projekt 1 - Bild 1.png"  alt="">
-              </div>
-              <div class="card-custom-content p-4">
-                <h4> Projekt: L</h4>
-                <p>Kleine Plakate für ein Community-Projekt, bei dem die Geschichte eines Spiels aufbereitet und in kurzen Präsentationen zusammengefasst wird. Beide Bilder zeigen kleine Plakate, die für die Ankündigung der Präsentationstermine erstellt wurden.</p>
-                <a href="https://github.com/ZeroStratege/ZeroStratege.github.io/tree/main/assets/Projekt%201" class="link-custom">Mehr</a>
-              </div>
+        <div class="modal fade videoModal" id="videoModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body p-9">
+                        <div class="ratio ratio-16x9">
+                            <iframe id="videoEInbettungLink" src="" title="Barony All Classes Tier List" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>                
+                </div>
             </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="card-custom rounded-4 bg-base shadow-effect" data-aos="fade-left" data-aos-delay="700" onmouseover="changeImage(this, './assets/Projekt 2/Projekt 2 - Bild 1.jpg')" onmouseout="restoreImage(this, './assets/Projekt 2/Projekt 2 - Bild 2.jpg')">
-              <div class="card-custom-image rounded-4">
-                <img class="rounded-4" src="./assets/Projekt 2/Projekt 2 - Bild 2.jpg" alt="">
-              </div>
-              <div class="card-custom-content p-4">
-                <h4> Nacht der Technik</h4>
-                <p>Für die Nacht der Technik erstellten wir in einer Gruppe eine Retro-Dekoration für ein Textadventure.</p>
-                <a href="https://github.com/ZeroStratege/ZeroStratege.github.io/tree/main/assets/Projekt%202" class="link-custom">Mehr</a>
-              </div>
-            </div>
-          </div>
         </div>
 
-      </div>
-    </section>
+    <script> //Modal Video
+        const video = document.querySelectorAll('.videoEinbettung'); 
+        const modalVideo = document.getElementById('videoEInbettungLink');
+        const videoModal = new bootstrap.Modal(document.getElementById('videoModal'));
 
-    <!--Kontakte-->
-    <section id="contact" class="full-height px-lg-5">
-      <div class="container">
+        video.forEach(button => 
+        {
+            button.addEventListener('click',()=> 
+            {
+                const srcVideo= button.getAttribute('srcVideo');
+                modalVideo.src = srcVideo;
+                videoModal.show();
+            })
+        })
 
-        <div class="row pb-4" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-8">
-            <h4 class="text-brand">Kontak</h4>
-            <h1>Über folgende Kommunikationskanäle können sie mich erreichen.</h1>
-          </div>
-        </div>
+        document.getElementById('videoModal').addEventListener('hidden.bs.modal',()=> 
+        {
+            modalVideo.src ='';
+        });
 
-        <div class="row gy-4">
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="service p-4 bg-base rounded-4 shadow-effect">
-              <div class= "iconbox rounded-4">
-                <i class="las la-envelope-open"></i>
-              </div>
-              <h4 class="mt-4 mb-2">E-Mail</h4>
-              <p>Für geschäftliche Anfragen.</p>
-              <a href="#" class="link-custom">Paskal@xxxxxx.de</a>
-            </div>
-          </div>
+    </script>
 
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="700">
-            <div class="service p-4 bg-base rounded-4 shadow-effect">
-              <div class= "iconbox rounded-4">
-                <i class="lab la-twitter"></i>
-              </div>
-              <h4 class="mt-4 mb-2">Twitter</h4>
-              <p>Bleibt sie auf dem neuesten Stand.</p>
-              <a href="https://twitter.com/" class="link-custom">Paskal beispiel</a>
-            </div>
-          </div>
+    <script> // Filter System
+        const filterSchalter_btn = document.querySelectorAll('.filter-btn');
+        const items = document.querySelectorAll('.item');
 
-        </div>
+        filterSchalter_btn.forEach
+        (btn => {btn.addEventListener('click', () => 
+            {
+                filterSchalter_btn.forEach(b => b.classList.remove('btn-dark'));
+                filterSchalter_btn.forEach(b => b.classList.add('btn-outline-dark'));
+                btn.classList.remove('btn-outline-dark');
+                btn.classList.add('btn-dark');
 
-      </div>
-    </section>
-  </div>
+                const filter = btn.getAttribute('daten-filter');
+                items.forEach(item =>
+                {
+                    const kategorie = item.getAttribute('daten-kategorie');
+                    if(filter === 'all' || kategorie === filter)
+                    {
+                        item.classList.add('show');
+                    }
+                    else
+                    {
+                        item.classList.remove('show');
+                    }
+                });
+            });
+        });
+        document.querySelector('[daten-filter = "all"]').click();
+    </script>
 
-  <script>
-    function changeImage(element, newSrc) {
-      var img = element.querySelector(".card-custom-image img");
-      img.src = newSrc;
+
+    <script> // Text Verkleinerung
+    function toggleTextLabel(button) 
+    {
+        const isExpanded = button.getAttribute("aria-expanded") === "true";
+        button.textContent = isExpanded ? "Weniger anzeigen" : "Mehr anzeigen";
     }
-  
-    function restoreImage(element, originalSrc) {
-      var img = element.querySelector(".card-custom-image img");
-      img.src = originalSrc;
-    }
-  </script>
+    </script>
 
-<script>
-  var audio = document.getElementById("audioPlayer");
-  function toggleAudio() {
-    if (audio.paused) {
-      audio.play();
-    } else {
-      audio.pause();
-    }
-  }
-</script>
+    <script> // Modal Fluide Bilder
+        const bilder = document.querySelectorAll('.VergrößerbaresBild'); 
+        const modalImage = document.getElementById('exampleModal');
+        const bildModal = new bootstrap.Modal(document.getElementById('bildModal'));
 
-</body>
+        bilder.forEach(img => 
+        {
+            img.addEventListener('click',()=> 
+            {
+                modalImage.src = img.src;
+                bildModal.show();
+            })
+        })
+
+    </script>
+    </body>
 </html>
